@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Button loginButton;
     ImageView facebookLoginButton;
 
-    public void signUp(View view) { // Fade out all current elements and fade in sign up elements
+    public void signUp(View view) throws InterruptedException { // Fade out all current elements and fade in sign up elements
 
         textLogo.animate() // Fade out the textLogo
                 .translationXBy(-1000f)
