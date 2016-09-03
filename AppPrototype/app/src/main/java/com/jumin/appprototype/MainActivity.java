@@ -19,32 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void signUp(View view) throws InterruptedException { // Fade out all current elements and fade in sign up elements
 
-        textLogo.animate() // Fade out the textLogo
-                .translationXBy(-1000f)
-                .alpha(0f)
-                .setDuration(1500)
-                .start();
-
-        signUpButton.animate()
-                .translationXBy(-1000f)
-                .alpha(0f)
-                .setDuration(1500)
-                .start();
-
-        loginButton.animate()
-                .translationXBy(-1000f)
-                .alpha(0f)
-                .setDuration(1500)
-                .start();
-
-        facebookLoginButton.animate()
-                .translationXBy(-1000f)
-                .alpha(0f)
-                .setDuration(1500)
-                .start();
-
         Intent leadToSignUp = new Intent(MainActivity.this, signUp.class);
         MainActivity.this.startActivity(leadToSignUp);
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
 
     }
 
