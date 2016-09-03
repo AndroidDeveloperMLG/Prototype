@@ -22,25 +22,25 @@ public class MainActivity extends AppCompatActivity {
         textLogo.animate() // Fade out the textLogo
                 .translationXBy(-1000f)
                 .alpha(0f)
-                .setDuration(1250)
+                .setDuration(1500)
                 .start();
 
         signUpButton.animate()
                 .translationXBy(-1000f)
                 .alpha(0f)
-                .setDuration(1250)
+                .setDuration(1500)
                 .start();
 
         loginButton.animate()
                 .translationXBy(-1000f)
                 .alpha(0f)
-                .setDuration(1250)
+                .setDuration(1500)
                 .start();
 
         facebookLoginButton.animate()
                 .translationXBy(-1000f)
                 .alpha(0f)
-                .setDuration(1250)
+                .setDuration(1500)
                 .start();
 
         Intent leadToSignUp = new Intent(MainActivity.this, signUp.class);
