@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Logo Here"
+        android:text="@string/logo_here"
         android:id="@+id/textLogo"
         android:layout_marginTop="25dp"
         android:textSize="30sp"
@@ -62,7 +62,8 @@
         android:id="@+id/facebookLoginButton"
         android:src="@drawable/facebookbutton"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/facebook_button_description"/>
 
 </RelativeLayout>
 

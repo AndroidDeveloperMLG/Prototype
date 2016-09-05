@@ -25,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void login(View view) throws InterruptedException { // Fade out all current elements and fade in sign up elements
+
+        Intent leadToSignUp = new Intent(MainActivity.this, login.class);
+        MainActivity.this.startActivity(leadToSignUp);
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
