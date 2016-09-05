@@ -114,7 +114,8 @@
             android:textColor="#eeebeb"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="35dp" />
+            android:layout_marginBottom="35dp"
+            android:onClick="login" />
 
         <!-- 70% Width End-->
 
