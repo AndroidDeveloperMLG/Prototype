@@ -21,7 +21,7 @@
             android:id="@+id/signUpText"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:textSize="50dp"
+            android:textSize="40dp"
             android:layout_marginTop="20dp"
             android:textColor="#f1eeee"
             android:textStyle="bold" />
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/userField"
             android:background="#8B9699"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:singleLine="true"
             android:hint="Username"
             android:layout_below="@+id/signUpText"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/passField"
             android:background="#8B9699"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:singleLine="true"
             android:hint="Password"
             android:inputType="textPassword"
@@ -58,24 +58,27 @@
             android:layout_height="wrap_content"
             android:id="@+id/passField2"
             android:background="#8B9699"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:singleLine="true"
-            android:hint="Confirm"
+            android:hint="@string/confirm"
             android:layout_below="@+id/passField"
             android:layout_alignParentStart="true"
             android:layout_marginTop="25dp"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp" />
 
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/editText"
             android:background="#8B9699"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:singleLine="true"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:paddingLeft="3dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
             android:layout_below="@id/passField2"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -84,28 +87,32 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Up!"
+            android:text="@string/sign_up"
             android:id="@+id/signUpButton"
             android:layout_marginTop="48dp"
             android:layout_below="@+id/editText"
             android:layout_centerHorizontal="true"
             android:textSize="30sp"
             android:background="@drawable/signupbutton"
-            android:padding="15dp"
             android:textStyle="bold"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already have an account?"
             android:id="@+id/alreadyHaveText"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="@string/already_have_text"
+            android:textColor="#eeebeb"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="34dp"
-            android:textSize="25sp"
-            android:textAlignment="center"
-            android:textStyle="bold"/>
+            android:layout_marginBottom="35dp" />
 
         <!-- 70% Width End-->
 

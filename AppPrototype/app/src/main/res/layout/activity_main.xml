@@ -25,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
+        android:text="@string/signup"
         android:id="@+id/signUpButton"
         android:textSize="23sp"
         android:paddingLeft="35dp"
@@ -35,7 +35,6 @@
         android:background="@drawable/homescreenbuttons"
         android:textColor="#BFC7C9"
         android:onClick="signUp"
-        android:nestedScrollingEnabled="false"
         android:layout_below="@+id/textLogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="56dp" />
@@ -43,7 +42,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/login"
         android:id="@+id/loginButton"
         android:textSize="23sp"
         android:paddingLeft="30dp"
@@ -62,7 +61,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/facebookLoginButton"
         android:src="@drawable/facebookbutton"
-        android:layout_gravity="right|top"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 

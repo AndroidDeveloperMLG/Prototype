@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">App Prototype</string>
-    <string name="already_have_text">Already have an account?</string>
+    <string name="already_have_text"><u>Already have an account?</u></string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="email">Email</string>
+    <string name="confirm">Confirm</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
 </resources>
