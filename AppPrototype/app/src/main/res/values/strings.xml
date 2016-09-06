@@ -11,4 +11,7 @@
     <string name="register">Register</string>
     <string name="facebook_button_description">Button for connecting a Facebook account</string>
     <string name="logo_here">Logo Here</string>
+    <string name="user_email_hint">Username/Email</string>
+    <string name="no_account"><u>Don\'t have an account?</u></string>
+    <string name="forgot_pass"><u>Forgot your password?</u></string>
 </resources>
