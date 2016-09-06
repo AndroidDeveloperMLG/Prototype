@@ -1,19 +1,16 @@
 package com.jumin.appprototype;
 
 import android.content.Intent;
-import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Html;
 import android.view.View;
-import android.widget.TextView;
 
-public class signUp extends AppCompatActivity {
+public class forgot_password extends AppCompatActivity {
 
     public void login(View view) throws InterruptedException { // Fade out all current elements and fade in sign up elements
 
-        Intent leadToLogin = new Intent(signUp.this, login.class);
-        signUp.this.startActivity(leadToLogin);
+        Intent leadToLogin = new Intent(forgot_password.this, login.class);
+        forgot_password.this.startActivity(leadToLogin);
         overridePendingTransition(R.anim.fadein, R.anim.fadeout);
 
     }
@@ -21,6 +18,6 @@ public class signUp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.activity_forgot_password);
     }
 }

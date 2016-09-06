@@ -14,4 +14,8 @@
     <string name="user_email_hint">Username/Email</string>
     <string name="no_account"><u>Don\'t have an account?</u></string>
     <string name="forgot_pass"><u>Forgot your password?</u></string>
+    <string name="remember_password"><u>Remember password?</u></string>
+    <string name="enter_email">Enter In Your Email</string>
+    <string name="recovery_reminder">*Reminder: If the email address you registered is not valid, the email recovery method will not work.*</string>
+    <string name="submit">Submit</string>
 </resources>

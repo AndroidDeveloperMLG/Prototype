@@ -15,6 +15,14 @@ public class login extends AppCompatActivity {
 
     }
 
+    public void retrievePass(View view) throws InterruptedException { // Fade out all current elements and fade in sign up elements
+
+        Intent leadToRetrievePass = new Intent(login.this, forgot_password.class);
+        login.this.startActivity(leadToRetrievePass);
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
