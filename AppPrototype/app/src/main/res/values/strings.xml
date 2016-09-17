@@ -18,4 +18,5 @@
     <string name="enter_email">Enter In Your Email</string>
     <string name="recovery_reminder">*Reminder: If the email address you registered is not valid, the email recovery method will not work.*</string>
     <string name="submit">Submit</string>
+    <string name="logo">Logo</string>
 </resources>

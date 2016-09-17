@@ -12,9 +12,9 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView textLogo;
     Button signUpButton;
     Button loginButton;
+    ImageView logo;
     ImageView facebookLoginButton;
 
     public void signUp(View view) throws InterruptedException { // Fade out all current elements and fade in sign up elements
@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textLogo = (TextView)findViewById(R.id.textLogo); // Start of textLogo code
-        textLogo.setTranslationY(-300f);
-        textLogo.setAlpha(0);
-        textLogo.animate()
+        logo = (ImageView)findViewById(R.id.logo); // Start of textLogo code
+        logo.setTranslationY(-300f);
+        logo.setAlpha(0.0F);
+        logo.animate()
                 .translationYBy(300f)
                 .alpha(1f)
                 .setDuration(1250)
