@@ -1,0 +1,25 @@
+android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/Login">
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        android:onClick="displayOneImage"/>
+    <Button
+        android:id="@+id/Create an Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Enter Information"
+        android:onClick="listAllImages"/>
+    <ImageView
+	android:id="@+id/Background"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#1"
+	android:gravity="center"
+
+Prototype-master-EDITS
